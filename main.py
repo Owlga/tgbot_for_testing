@@ -8,13 +8,11 @@ from random import shuffle
 
 import requests
 
-from flask import Flask
 from data import db_session
 from data.students import Student
 from data.teachers import Teacher
 from data.toddlers import Teacher_toddler
 from data.tests import Teacher_test
-from sqlalchemy import select
 
 
 TOKEN = 'token'
